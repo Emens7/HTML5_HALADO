@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/project/assets/css/main.css">
 </head>
 <body>
     <header id="header">
@@ -25,10 +25,10 @@
         <ul class="links">
 
             <li>
-                <a href="/index.html">Home</a>
+                <a href="/project/index.html">Home</a>
             </li>
             <li>
-                <a href="/blog.html">Blog</a>
+                <a href="/project/blog.html">Blog</a>
             </li>
 
         </ul>
@@ -38,7 +38,7 @@
     <section id="banner">
         <div class="inner">
             <h1>HTML5 Tanfolyam</h1>
-            <p>Egy tanfolyam ahol megismerjük a <a href="https://www.w3schools.com/html/default.asp">HTML5
+            <p>Egy tanfolyam ahol megismerjük a <a target="_blank" href="https://www.w3schools.com/html/default.asp">HTML5
             </a>
             fontos és hasznos képességeit.
         </p>
@@ -46,15 +46,76 @@
         
         <video autoplay loop muted playsinline src="/images/banner.mp4"></video>
 
-    </section>      
+    </section> 
     
+    <main class="wrapper">
+
+        <section class="inner">
+            <article class="content">
+                <header>
+                    <h2>A Szekció</h2>
+                    <p>Tartalom tagolás</p>
+                </header>
+            </article>
+
+            <article>
+                <video width="800" controls autoplay>
+                    <source src="/project/video/Waterfall.mp4" type="video/mp4">
+                        A böngésződ nem támogatja a videólejátszót!
+                </video>
+            </article>
+                
+        </section>
+    </main>
+    
+    
+        <aside class="wrapper">
+            <section class="inner">
+                <article class="content">
+                    <a class="weatherwidget-io" href="https://forecast7.com/hu/46d7817d70/balatonlelle/" data-label_1="BALATON"
+                        data-label_2="Időjárás" data-theme="original" data-basecolor="#8e8989" data-highcolor="#e5e05b"
+                        data-lowcolor="#b0caf1">BALATONLELLE Időjárás</a>
+                    <script>
+                        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+                    </script>
+                </article>
+            </section>
+    
+            
+        </aside>
+        
+    
+    
+    <footer id="footer">
+        <div class="inner">
+            <section>
+                <h3></h3>
+               
+                <p>
+                    
+                </p>
+            </section>
+            <nav id="menu">
+                <ul class="links">
+        
+                    <li>
+                        <a href="/project/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/project/blog.html">Blog</a>
+                    </li>
+        
+                </ul>
+            </nav>
+        </div>
+    </footer>
 
     <!-- Scripts. -->
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/browser.min.js"></script>
-    <script src="/assets/js/breakpoints.min.js"></script>
-    <script src="/assets/js/util.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="/project/assets/js/jquery.min.js"></script>
+    <script src="/project/assets/js/browser.min.js"></script>
+    <script src="/project/assets/js/breakpoints.min.js"></script>
+    <script src="/project/assets/js/util.js"></script>
+    <script src="/project/assets/js/main.js"></script>
 
 </body>
 </html>
